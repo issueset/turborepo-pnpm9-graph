@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "building @acme/tsconfig && sleep 10 && built @acme/tsconfig"
+    "build": "echo 'building @acme/tsconfig' && sleep 10 && echo 'built @acme/tsconfig'"
   },
   "publishConfig": {
     "access": "public"

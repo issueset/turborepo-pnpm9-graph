@@ -10,7 +10,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "building @acme/utils && sleep 10 && built @acme/utils",
+    "build": "echo 'building @acme/utils' && sleep 10 && echo 'built @acme/utils'",
     "dev": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
