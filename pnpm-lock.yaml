@@ -21,8 +21,8 @@ importers:
         specifier: ^3.2.5
         version: 3.2.5
       turbo:
-        specifier: latest
-        version: registry.npmjs.org/turbo@1.13.3
+        specifier: 1.13.4-canary.4
+        version: 1.13.4-canary.4
 
   apps/docs:
     dependencies:
@@ -4807,53 +4807,65 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /turbo-darwin-64@1.13.3:
-    resolution: {integrity: sha512-glup8Qx1qEFB5jerAnXbS8WrL92OKyMmg5Hnd4PleLljAeYmx+cmmnsmLT7tpaVZIN58EAAwu8wHC6kIIqhbWA==, tarball: https://registry.npmjs.org/turbo-darwin-64/-/turbo-darwin-64-1.13.3.tgz}
+  /turbo-darwin-64@1.13.4-canary.4:
+    resolution: {integrity: sha512-ZVZvIppKIZfx5joYNzAJSP/zT1L/T2uz9Rj0Ra0T7kN7QVp7P8xEm0NHEQvoOnyjihe5WqVAWuw0OZ8RegpuXA==, tarball: https://registry.npmjs.org/turbo-darwin-64/-/turbo-darwin-64-1.13.4-canary.4.tgz}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-darwin-arm64@1.13.3:
-    resolution: {integrity: sha512-/np2xD+f/+9qY8BVtuOQXRq5f9LehCFxamiQnwdqWm5iZmdjygC5T3uVSYuagVFsZKMvX3ycySwh8dylGTl6lg==, tarball: https://registry.npmjs.org/turbo-darwin-arm64/-/turbo-darwin-arm64-1.13.3.tgz}
+  /turbo-darwin-arm64@1.13.4-canary.4:
+    resolution: {integrity: sha512-O5h83vh1Fw5pyzh119IUOyvobfzJBmEYrjI2mVmWWziC29b9W+1BL+KNPslF2EnjUOd+aLAQuP6Edw9qxa0Fjw==, tarball: https://registry.npmjs.org/turbo-darwin-arm64/-/turbo-darwin-arm64-1.13.4-canary.4.tgz}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-64@1.13.3:
-    resolution: {integrity: sha512-G+HGrau54iAnbXLfl+N/PynqpDwi/uDzb6iM9hXEDG+yJnSJxaHMShhOkXYJPk9offm9prH33Khx2scXrYVW1g==, tarball: https://registry.npmjs.org/turbo-linux-64/-/turbo-linux-64-1.13.3.tgz}
+  /turbo-linux-64@1.13.4-canary.4:
+    resolution: {integrity: sha512-rQfc1vyv2xAoOq4865ato1elDvOaChrv14nZ1twl9GBOI71Kga2z0J6abETl3YPW5nj21nl4EOwJ1dd77/sa0Q==, tarball: https://registry.npmjs.org/turbo-linux-64/-/turbo-linux-64-1.13.4-canary.4.tgz}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-arm64@1.13.3:
-    resolution: {integrity: sha512-qWwEl5VR02NqRyl68/3pwp3c/olZuSp+vwlwrunuoNTm6JXGLG5pTeme4zoHNnk0qn4cCX7DFrOboArlYxv0wQ==, tarball: https://registry.npmjs.org/turbo-linux-arm64/-/turbo-linux-arm64-1.13.3.tgz}
+  /turbo-linux-arm64@1.13.4-canary.4:
+    resolution: {integrity: sha512-MR5x4li0N8j3zGWdWVv9JOJXoS0zq+ifKOVFFoO9NlDBE1SCHV72ZAlKXhg356iEL6BdWUYbnBXKnJSY9tpPIQ==, tarball: https://registry.npmjs.org/turbo-linux-arm64/-/turbo-linux-arm64-1.13.4-canary.4.tgz}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-64@1.13.3:
-    resolution: {integrity: sha512-Nudr4bRChfJzBPzEmpVV85VwUYRCGKecwkBFpbp2a4NtrJ3+UP1VZES653ckqCu2FRyRuS0n03v9euMbAvzH+Q==, tarball: https://registry.npmjs.org/turbo-windows-64/-/turbo-windows-64-1.13.3.tgz}
+  /turbo-windows-64@1.13.4-canary.4:
+    resolution: {integrity: sha512-25ujOm03iGry8zQLkUe/8T68wJHS5Ha95HA58ATwqKkv65Eul6cdWQd6MdcZGF/JV0UmZbQ1kmgUkEy+hN61rA==, tarball: https://registry.npmjs.org/turbo-windows-64/-/turbo-windows-64-1.13.4-canary.4.tgz}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-arm64@1.13.3:
-    resolution: {integrity: sha512-ouJCgsVLd3icjRLmRvHQDDZnmGzT64GBupM1Y+TjtYn2LVaEBoV6hicFy8x5DUpnqdLy+YpCzRMkWlwhmkX7sQ==, tarball: https://registry.npmjs.org/turbo-windows-arm64/-/turbo-windows-arm64-1.13.3.tgz}
+  /turbo-windows-arm64@1.13.4-canary.4:
+    resolution: {integrity: sha512-ltpJVtWUgjsG589/u2N5hcN31Sb8JwUfNHOQSI8rIxxsb0kp+TrJ+h0pkvRdsQOU6/73llGjOLBdB7/xz21vmg==, tarball: https://registry.npmjs.org/turbo-windows-arm64/-/turbo-windows-arm64-1.13.4-canary.4.tgz}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
+
+  /turbo@1.13.4-canary.4:
+    resolution: {integrity: sha512-hourUbf3RRpkhqnpFHkaJ2L/tP/XoatsdN4sx6zot3fsnlRLjWMoWnKRfu8nkvmPK2i23na971eU1NPUPykU5w==, tarball: https://registry.npmjs.org/turbo/-/turbo-1.13.4-canary.4.tgz}
+    hasBin: true
+    optionalDependencies:
+      turbo-darwin-64: 1.13.4-canary.4
+      turbo-darwin-arm64: 1.13.4-canary.4
+      turbo-linux-64: 1.13.4-canary.4
+      turbo-linux-arm64: 1.13.4-canary.4
+      turbo-windows-64: 1.13.4-canary.4
+      turbo-windows-arm64: 1.13.4-canary.4
+    dev: true
 
   /type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
@@ -5161,18 +5173,4 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
-    dev: true
-
-  registry.npmjs.org/turbo@1.13.3:
-    resolution: {integrity: sha512-n17HJv4F4CpsYTvKzUJhLbyewbXjq1oLCi90i5tW1TiWDz16ML1eDG7wi5dHaKxzh5efIM56SITnuVbMq5dk4g==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/turbo/-/turbo-1.13.3.tgz}
-    name: turbo
-    version: 1.13.3
-    hasBin: true
-    optionalDependencies:
-      turbo-darwin-64: 1.13.3
-      turbo-darwin-arm64: 1.13.3
-      turbo-linux-64: 1.13.3
-      turbo-linux-arm64: 1.13.3
-      turbo-windows-64: 1.13.3
-      turbo-windows-arm64: 1.13.3
     dev: true

@@ -15,7 +15,7 @@
     "@changesets/cli": "^2.27.1",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
-    "turbo": "latest"
+    "turbo": "1.13.4-canary.4"
   },
   "packageManager": "pnpm@8.15.8",
   "engines": {
