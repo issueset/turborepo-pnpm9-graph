@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "turborepo-pnpm9-graph",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
